@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.my.campusselectionprocedure"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.my.campusselectionprocedure.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.my.campusselectionprocedure.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.StudentregisterActivity"
+            android:label="@string/title_activity_studentregister" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.StudentActivity"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.PlacemenntofficerActivity"
+            android:label="@string/title_activity_placemenntofficer" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.PlacementofficerregisterActivity"
+            android:label="@string/title_activity_placementofficerregister" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.CompanyActivity"
+            android:label="@string/title_activity_company" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.CompanyregisterActivity"
+            android:label="@string/title_activity_companyregister" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.CvActivity"
+            android:label="@string/title_activity_cv" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.HintActivity"
+            android:label="@string/title_activity_hint" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.SaikiranActivity"
+            android:label="@string/title_activity_saikiran" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.CompanydetailsActivity"
+            android:label="@string/title_activity_companydetails" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.AstudentActivity"
+            android:label="@string/title_activity_astudent" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.AcompanyActivity"
+            android:label="@string/title_activity_acompany" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.JobsearchActivity"
+            android:label="@string/title_activity_jobsearch" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.Report"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name="com.my.campusselectionprocedure.StatusActivity"
+            android:label="@string/title_activity_status" >
+        </activity>
+    </application>
+
+</manifest>
